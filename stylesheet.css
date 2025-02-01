@@ -1,3 +1,45 @@
-h1{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* TOP PART*/
+
+/* Bread Crumbs */
+
+.breadcrumbs{
+    width:100%;
+    position:relative;
+    top: 0;
+    z-index:10;
+    border-bottom: 2px solid black;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding:0 1.3rem 0 4rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.breadcrumbs li{
+    display: inline;
+    margin-left: 1.7rem;
+    font-size:1.5rem;
+}
+
+.breadcrumbs a{
+    color:black;
+    cursor: pointer;
+    transition: color 2s ease;
+
+}
+
+.breadcrumbs a:hover{
     color:red;
 }
+
+#nameLogo{
+    font-size: 3em;
+    font-weight: 300;
+}
+
