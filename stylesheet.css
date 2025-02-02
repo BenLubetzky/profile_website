@@ -155,3 +155,36 @@ Header img{
     animation-timing-function: ease;
     animation-fill-mode: forwards;
 }
+
+/* skills */
+
+.skills{
+    margin-top: 5rem;
+    width:87%;
+    border-top: 1px dotted black;
+    height: auto;
+}
+
+.skills h2{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 3rem;
+    font-size:4rem;
+    font-style: italic;
+    font-weight: 300;
+    box-sizing: border-box;
+    margin-top: 3rem;
+    margin-left: 15rem;
+}
+
+.skillsImages{
+    width:80%;
+    display: flex;
+    margin:0 auto;
+    justify-content:space-around;
+}
+
+.skillsImages img{
+    width:150px;
+    height:150px;
+}
