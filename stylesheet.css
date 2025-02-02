@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 /* TOP PART*/
@@ -30,7 +31,7 @@
 .breadcrumbs a{
     color:black;
     cursor: pointer;
-    transition: color 2s ease;
+    transition: color 1s ease;
 
 }
 
@@ -43,3 +44,40 @@
     font-weight: 300;
 }
 
+/* Header */
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height:auto;
+    width: 95%;
+    margin:3rem auto;
+    padding:0 4rem;
+    box-sizing: border-box;
+}
+.AboutMeText h2{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 3rem;
+    font-size:4rem;
+    font-style: italic;
+    font-weight: 300;
+    box-sizing: border-box;
+
+}
+.AboutMeText p{
+    font-size: 2rem;
+    line-height: 1.6;
+
+}
+.AboutMeText{
+    text-align: center;
+    height: 100%;
+    width:60%;
+    margin: 0 auto;
+}
+Header img{
+    height:auto;
+    border-radius: 50%;
+    width:28%;
+}
