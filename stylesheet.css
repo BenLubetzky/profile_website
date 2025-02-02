@@ -45,12 +45,13 @@
 }
 
 /* Header */
+
 header{
     display:flex;
     justify-content: space-between;
     align-items:center;
     height:auto;
-    width: 95%;
+    width: 92%;
     margin:3rem auto;
     padding:0 4rem;
     box-sizing: border-box;
@@ -80,4 +81,77 @@ Header img{
     height:auto;
     border-radius: 50%;
     width:28%;
+}
+
+/* projects */
+.projects{
+    width: 87%;
+    height:auto;
+    margin:0 auto;
+    border-top: 1px dotted black;
+    padding:2rem 4rem;
+}
+
+.projectsContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+
+.ProjectsText{
+    width: 80%;
+    height: auto;
+}
+
+.projects h2{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 3rem;
+    font-size:4rem;
+    font-style: italic;
+    font-weight: 300;
+    box-sizing: border-box;
+    margin-left: 7rem;
+}
+
+.projects h3{
+    font-size: 2.75rem;
+    font-weight: 400;
+    margin-bottom:3rem;
+}
+
+.projects ul{
+    margin-left:2rem;
+}
+
+.projects li{
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+}
+.projectsImgContainer{
+    width: 20%;
+}
+
+@keyframes moveUp{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-100px);
+    }
+}
+
+.projects img{
+    width:20%;
+    bottom:0;
+    position: absolute;
+    height:auto;
+}
+.projects img:hover{
+    animation-name: moveUp;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
 }
