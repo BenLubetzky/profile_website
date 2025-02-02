@@ -67,7 +67,7 @@ header{
 
 }
 .AboutMeText p{
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.6;
 
 }
@@ -118,8 +118,8 @@ Header img{
 
 .projects h3{
     font-size: 2.75rem;
-    font-weight: 400;
-    margin-bottom:3rem;
+    font-weight: 300;
+    margin-bottom:2.5rem;
 }
 
 .projects ul{
@@ -159,7 +159,7 @@ Header img{
 /* skills */
 
 .skills{
-    margin-top: 5rem;
+    margin: 5rem 0;
     width:87%;
     border-top: 1px dotted black;
     height: auto;
@@ -187,4 +187,53 @@ Header img{
 .skillsImages img{
     width:150px;
     height:150px;
+}
+
+/* Contact */
+
+.contact{
+    width:87%;
+    border-top: 1px dotted black;
+    height:auto;
+}
+
+.contact h2{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 3rem;
+    font-size:4rem;
+    font-style: italic;
+    font-weight: 300;
+    box-sizing: border-box;
+    margin-top: 3rem;
+    margin-left: 15rem;
+}
+.contact{
+    text-align: center;
+    font-size:2rem;
+}
+
+.contact ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact li{
+    list-style:None;
+}
+
+/* footer */
+
+footer{
+    width:100%;
+    margin-top: 5rem;
+    background-color: black;
+    height:3rem;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span{
+    vertical-align: super;
 }
